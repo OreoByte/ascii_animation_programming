@@ -1,0 +1,50 @@
+
+public class java_animation {
+
+public static void main(String[] args) throws InterruptedException {
+	while(true) {
+		String first_frame =
++"lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll" 
++"lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
++"lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
++"lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
++"llllllllllllllllllllllldddoddooddooddolllllllllllllllllllllllllll"
++"lllllllllllllllllllllldxlcccdxxo::cldxollllllllllllllllllllllllll"
++"lllllllllllllllllllllloxddkkkOOkxkOxoxxllllllllllllllllllllllllll"
++"lllllllllllllllllllllldkOXWNNNNWWWWN0xkxollllllllddddllllllllllll"
++"lllllllllllllllllllddoddxxxddddddxOXN0dlloodddddoocdxllllllllllll"
++"lllllllllllllllllloxc,,;:clolcc:;;clxkc'.',;::::cloxdllllllllllll"
++"lllllllllllllllllloxo;,,:coxxxdollc:clodocccclodddollllllllllllll"
++"lllllllllllllllllllodxxddclOWWNOddl;:d0KOdoodolllllllllllllllllll"
++"lllllllllllllllllllllxOKXOxO000Okxl:xK0Oxolllllllllllllllllllllll"
++"llllllllllllllllllllloxkOOooxxxkOOdcldkxdllllllllllllllllllllllll"
++"llllllllllllllllllllllllokxoxkxkkkdlokxllllllllllllllllllllllllll"
++"lllllllllllllllllllllllllokdoolodddoxxlllllllllllllllllllllllllll"
++"lllllllllllllllllllllllllldxddddoddxxolllllllllllllllllllllllllll"
++"llllllllllllllllllllllllllldooddoooolllllllllllllllllllllllllllll"
++"lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll";
+
+		System.out.println(first_frame);
+		Thread.sleep(100);
+
+		String fourth_frame =
++"lllllllllllllllllllllllllddoloddlddoooddlllllllllllllllllllllllll"
++"lllllllllllllllllllllllllddoxodxdxxxOxxxlllllllllllllllllllllllll"
++"lllllllllllllllllllllllllxxkK0OOOOOKNKOdlllllllllllllllllllllllll"
++"llllllllllllllllllllllloxkOKKKKKKKXNNKkxollllllllllllllllllllllll"
++"llllllllllllllllllllllldxddollllllokKNKOxolllllllllllllllllllllll"
++"lllllllllllllllllllllllddlccolccc:;co0NOxdlllllllllllllllllllllll"
++"lllllllllllllllllllllllddccoxxdddlcccdOlcxdllllllllllllllllllllll"
++"llllllllllllllllllllllldxc;l0NWKOxdl,;ol;cxdlllllllllllllllllllll"
++"llllllllllllllllllllllloxo:dKNNXKKkc:okkl,cxdllllllllllllllllllll"
++"lllllllllllllllllllllllldd;ckO000kolxOddxc'cxdlllllllllllllllllll"
++"llllllllllllllllllllllllddcd0XXXXXOkOOkddd;'lxollllllllllllllllll"
++"llllllllllllllllllllllllxxok0kxxxOO0XK0xoxl':dollllllllllllllllll"
++"llllllllllllllllllllllllxxddoddddold0KOxlxo,cxollllllllllllllllll"
++"llllllllllllllllllllllllodkxoodOOdloxxdolddoxdlllllllllllllllllll"
++"lllllllllllllllllllllllllloxddxOOxdxxolllllllllllllllllllllllllll";
+		System.out.println(fourth_frame);
+		Thread.sleep(100);
+	}
+}
+}

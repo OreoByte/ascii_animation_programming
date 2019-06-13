@@ -1,0 +1,56 @@
+function one() {
+var fs = require('fs');
+
+try {
+var data = fs.readFileSync("frame2/2.1frame", "utf8");
+	console.log(data);
+}
+	catch(e)
+{
+	console.log('Error:', e.stack);
+}
+}
+//======================================================
+function two() {
+var fs = require('fs');
+try {
+var data = fs.readFileSync("frame2/2.1frame", "utf8");
+        console.log(data);
+}
+        catch(e)
+{
+        console.log('Error:', e.stack);
+}
+}
+//======================================================
+function three() {
+var fs = require('fs');
+
+try {
+var data = fs.readFileSync("frame2/2.1frame", "utf8");
+        console.log(data);
+}
+        catch(e)
+{
+        console.log('Error:', e.stack);
+}
+}
+//======================================================
+function four() {
+var fs = require('fs');
+
+try {
+var data = fs.readFileSync("frame2/2.1frame", "utf8");
+        console.log(data);
+}
+        catch(e)
+{
+        console.log('Error:', e.stack);
+}
+}
+while(true);{
+one();
+two();
+three();
+four();
+}
